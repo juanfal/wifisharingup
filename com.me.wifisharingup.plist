@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.me.wifisharingup</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/me/bin/wifisharingup.sh</string>
+  </array>
+  <key>Nice</key>
+  <integer>1</integer>
+
+  <key>StartInterval</key>
+  <integer>60</integer>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/me/Library/Logs/wifisharingup.err</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/me/Library/Logs/wifisharingup.out</string>
+</dict>
+</plist>
